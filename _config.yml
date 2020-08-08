@@ -1,11 +1,11 @@
 # Site settings
 author: Sardar Hamza Naqi
-title: 
+title: Why Software Engineering?
 header-img: img/home-bg.png
 email: sardarhamzanaqi@gmail.com
 copyright_name: Sardar Hamza Naqi
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why now?
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  hamza15
