@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Mod1 - IMDB_CLI"
-date:       2020-09-18 07:02:56 +0000
+date:       2020-09-18 03:02:56 -0400
 permalink:  mod1_-_imdb_cli
 ---
 
 
 With Module 1 coming to an end soon our cohort got the opportunity to work on our first project. The project's requirements were pretty straightforward. 
 
-### Build a Ruby gem that provides a Command Line Interface (CLI) to an external data source. The CLI should be composed of an Object Oriented Ruby application. The user should be able to interract with CLI and go one level deep (User can make a choice and then get detailed information about their choice). And finally use all you've learned about Ruby and CLI Applications in Ruby to complete this project. 
+**Build a Ruby gem that provides a Command Line Interface (CLI) to an external data source. The CLI should be composed of an Object Oriented Ruby application. The user should be able to interract with CLI and go one level deep (User can make a choice and then get detailed information about their choice). And finally use all you've learned about Ruby and CLI Applications in Ruby to complete this project.** 
 
 
 Whether we chose to use an API or Scraping to ingest data into our project and what the classe and instance model would like were left for us to decide. Although daunting at first, I decided to spend a day researching API's and websites that would fit the requirements. I came across IMDB's API, which seemed like a great prospect to setup a project with. 
