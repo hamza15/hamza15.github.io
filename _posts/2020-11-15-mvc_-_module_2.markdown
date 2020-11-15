@@ -1,0 +1,17 @@
+---
+layout: post
+title:      "MVC - Module 2"
+date:       2020-11-15 12:24:26 +0000
+permalink:  mvc_-_module_2
+---
+
+
+The second module of Flatiron's Software Engineering cohort is focussed on leveraging Ruby, Sinatra and ActiveRecord. Coming into module 2 I was concerned about the complexity of using classes and modules in a more realistic setting to create real world applications. Learning about Sinatra, and ActiveRecord really eased me and several of my cohort-mates into the final stretch of our module 2.
+
+The final 2 weeks of each module are designated as project weeks which cover the curriculum covered in the previous weeks. My project was based on a review based web application where a user can find doctors and write reviews for their doctor. Essentially a 'Yelp' for doctors.
+
+The models that I wrote were User, Review and Doctor. After selecting the attributes for each model, I wrote the migration for my models. Since the Doctors are provided to the user by default I also created some seed data to feed into the database. After finalizing the Model of my MVC, the next step was to configure the controller. The controller had to be segregated based on responsibility. This would be a controller for user, reviews, doctors and sessions. The session controller would manage login (user authentication and authorization). The basic requirements of the project required us to setup CRUD actions for our Models. After setting up some routes to be able to get doctors, post reviews, edit reviews and delete reviews, the last step was to finish setting up user signup, login and sessions. This would allow users to be able only view and write reviews after signing up and logging into the application. This would also ensure that only an authenticated user would be able to edit their own review or delete it.
+
+After using the tux gem and binding.pry to play around with my Models and controller, I was ready to add the Views for my application. This was fairly simple as I already had the data from my models seeding into my views. Testing views and ensuring the backend of my application behaved as expected was probably the most gratifying part of the whole process. 
+
+As module 2 comes to an end and we prepare for Rails and module 3, a lot of really complex software engineering concepts are starting to seem simple. Excited for what lies ahead!
